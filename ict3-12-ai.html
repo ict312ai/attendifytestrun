@@ -42,7 +42,7 @@
     <div class="container">
         <div class="card">
             <div class="card-header" style="background-color: #A40000; color: white;">
-                <h3 class="mb-0"></h3>
+                <h3 class="mb-0">Date Selector</h3>
             </div>
             <div class="card-body">
                 <div class="date-selector">
@@ -58,7 +58,7 @@
     <div class="container">
         <div class="card">
             <div class="card-header" style="background-color: #A40000; color: white;">
-                <h3 class="mb-0"></h3>
+                <h3 class="mb-0">QR Code Generator</h3>
             </div>
             <div class="card-body">
                 <div class="qr-container">
@@ -503,7 +503,7 @@ window.onload = () => {
     <script>
         // QR Code Generator Function
         function generateQRCode() {
-            var baseUrl = "https://ict312ai.github.io/attendifytestrun/";
+            var baseUrl = "";
             var randomQuery = Math.random().toString(36).substring(2, 15);
             var finalUrl = baseUrl + "?id=" + randomQuery;
 
@@ -528,3 +528,4 @@ window.onload = () => {
 </body>
 
 </html>
+
