@@ -11,12 +11,43 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/simplex/bootstrap.min.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="styles.css">
+    <style>
+        .navbar {
+            background-color: #A40000 !important;
+        }
+
+        .navbar .navbar-brand {
+            color: white;
+        }
+
+        .navbar .nav-link {
+            color: white !important;
+        }
+
+        .navbar .nav-link:hover {
+            color: #d4d4d4 !important;
+        }
+
+        .ue-logo {
+            max-width: 200px;
+            height: auto;
+        }
+
+        h1, h3 {
+            color: #A40000;
+        }
+
+        /* Bootstrap overrides */
+        .navbar-toggler-icon {
+            background-color: white;
+        }
+    </style>
 </head>
 
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <a class="navbar-brand" href="index.html">UE | attendify</a>
+        <a class="navbar-brand" href="homepage.html">UE | Attendify</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -24,7 +55,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="homepage.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="classes.html">Classes</a>
@@ -39,7 +70,7 @@
     <!-- Body -->
     <div class="container mt-4 d-flex justify-content-center text-center">
         <div class="">
-            <img src="ue-logo.png" class="ue-logo">
+            <img src="ue-logo.png" class="ue-logo" alt="University of the East Logo">
             <br><br>
             <h1>University of the East</h1>
             <h3>Online Attendance System</h3>
@@ -51,5 +82,4 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
-
 </html>
